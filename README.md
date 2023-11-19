@@ -29,7 +29,7 @@ The simulation serves as a metaphorical exploration of the possibility of humani
 To run the simulation, ensure you have Python, Pygame, and NumPy installed in your environment. Clone the repository and run the main simulation script.
 
 ```bash
-git clone [<repository-url>](https://github.com/Memoriae-Technology/Simulation-Theory-Game-of-Life-Concept.git)
+git clone https://github.com/Memoriae-Technology/Simulation-Theory-Game-of-Life-Concept.git
 cd /Simulation-Theory-Game-of-Life-Concept/src
 python simulation_base.py
 ```
