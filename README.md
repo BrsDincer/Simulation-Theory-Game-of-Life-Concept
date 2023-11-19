@@ -46,11 +46,6 @@ Example results from a simulation run:
 
 These results suggest a complex environment where the discovery of anomalies is rare, aligning with the challenges faced in proving simulation theory in our reality.
 
-## Probability Calculation
-
-### Understanding the Probability of Anomaly Detection
-This section explains the mathematical probability of a living colony being exposed to at least one anomaly over a period of 10,000 years, represented as 10 seconds in the project's time scale, based on given simulation parameters.
-
 ## Contributing
 Contributions to the project are welcome. Please ensure to follow the code of conduct and adhere to the contribution guidelines when submitting pull requests.
 
