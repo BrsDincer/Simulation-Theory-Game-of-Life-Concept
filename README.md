@@ -48,6 +48,3 @@ These results suggest a complex environment where the discovery of anomalies is 
 
 ## Contributing
 Contributions to the project are welcome. Please ensure to follow the code of conduct and adhere to the contribution guidelines when submitting pull requests.
-
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
