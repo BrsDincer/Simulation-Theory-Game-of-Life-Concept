@@ -29,8 +29,8 @@ The simulation serves as a metaphorical exploration of the possibility of humani
 To run the simulation, ensure you have Python, Pygame, and NumPy installed in your environment. Clone the repository and run the main simulation script.
 
 ```bash
-git clone <repository-url>
-cd <repository-directory>
+git clone [<repository-url>](https://github.com/Memoriae-Technology/Simulation-Theory-Game-of-Life-Concept.git)
+cd /Simulation-Theory-Game-of-Life-Concept/src
 python simulation_base.py
 ```
 
@@ -50,22 +50,6 @@ These results suggest a complex environment where the discovery of anomalies is 
 
 ### Understanding the Probability of Anomaly Detection
 This section explains the mathematical probability of a living colony being exposed to at least one anomaly over a period of 10,000 years, represented as 10 seconds in the project's time scale, based on given simulation parameters.
-
-#### Formula
-1. **Probability of an Anomaly in One Update for One Colony:**  
-   \\[ P_{\\text{anomaly, one update}} = \\frac{\\text{Total Anomalies Detected}}{\\text{Total Observations}} \\]  
-   Where Total Observations = Total Number of Living Colonies × Number of Living Individuals (updates).
-
-2. **Probability of Not Encountering an Anomaly in One Update for One Colony:**  
-   \\[ P_{\\text{no anomaly, one update}} = 1 - P_{\\text{anomaly, one update}} \\]
-
-3. **Probability of Not Encountering an Anomaly in All Updates for One Colony:**  
-   \\[ P_{\\text{no anomaly, all updates}} = \\left( P_{\\text{no anomaly, one update}} \\right)^{\\text{Number of Living Individuals}} \\]
-
-4. **Probability of At Least One Anomaly in All Updates for One Colony:**  
-   \\[ P_{\\text{at least one anomaly}} = 1 - P_{\\text{no anomaly, all updates}} \\]
-
-In the specific scenario of the project, this formula calculates the likelihood that a living colony will encounter at least one anomaly in the equivalent of 10,000 years.
 
 ## Contributing
 Contributions to the project are welcome. Please ensure to follow the code of conduct and adhere to the contribution guidelines when submitting pull requests.
